@@ -25,7 +25,7 @@ jobs:
       run: |
         source scripts/e2e-setup-ci.sh
 
-        yarn dlx gatsby new my-gatsby
+        yarn dlx gatsby@next new my-gatsby
         cd my-gatsby
 
         # Test production build
